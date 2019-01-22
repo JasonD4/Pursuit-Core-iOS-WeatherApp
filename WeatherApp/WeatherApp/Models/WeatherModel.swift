@@ -8,8 +8,7 @@
 
 import Foundation
 
-//4u5xzN4BsqrY333a2SfCJ
-//9KrlszKWUe6QXQfBMDD2OAckfUoYt8YQwqXCmISN
+
 struct Weather: Codable {
     let response: [Days]
 }
@@ -22,7 +21,7 @@ struct DayAndWeather: Codable {
     let validTime: String
     let maxTempF: Int
     let minTempF: Int
-    let precipIN: Int
+    let precipIN: Double
     let weather: String
     let icon: String
     let sunrise: Int
